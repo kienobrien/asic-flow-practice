@@ -59,3 +59,9 @@ Generic Yosys synthesis is **not** the same as a foundry-ready ASIC flow. Real p
 Start with [our collaboration guide](CONTRIBUTING.md), [shared setup](notes/setup.md), and [session log](notes/session-log.md). Use the lesson/lab issue template and the pull request template to share work and explanations.
 
 Course hub: [ASIC Flow Practice](https://github.com/kienobrien/asic-flow-practice). RTL exercises: [RTL Practice](https://github.com/kienobrien/rtl-practice).
+
+Shared board: [ASIC 101 — Kien and Isaac](https://github.com/users/kienobrien/projects/1).
+
+Course: [Stone Arch Silicon ASIC 101](https://stone-arch-silicon.github.io/ASIC_101/#page_5).
+
+Current lab: [Carry-lookahead adder](https://github.com/kienobrien/asic-flow-practice/issues/2). Verified implementation: [Asic2 review PR](https://github.com/kienobrien/asic-flow-practice/pull/3).
