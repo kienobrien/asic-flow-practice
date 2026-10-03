@@ -53,3 +53,9 @@ Generic Yosys synthesis is **not** the same as a foundry-ready ASIC flow. Real p
 - learn static timing analysis
 - run a small design through an OpenROAD/OpenLane flow with a supported open PDK
 - compare area/timing after RTL changes
+
+## ASIC 101 with Isaac
+
+Start with [our collaboration guide](CONTRIBUTING.md), [shared setup](notes/setup.md), and [session log](notes/session-log.md). Use the lesson/lab issue template and the pull request template to share work and explanations.
+
+Course hub: [ASIC Flow Practice](https://github.com/kienobrien/asic-flow-practice). RTL exercises: [RTL Practice](https://github.com/kienobrien/rtl-practice).
