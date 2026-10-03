@@ -1,0 +1,33 @@
+# Claude generated this - could be whack idk
+# Vivado project (rebuilt from scripts/create_project.tcl)
+build/
+
+# Vivado logs and journals
+*.jou
+*.log
+*.str
+*.backup.jou
+*.backup.log
+
+# Vivado generated folders and files
+*.cache/
+*.hw/
+*.sim/
+*.ip_user_files/
+*.runs/
+*.gen/
+*.srcs/
+.Xil/
+*.xpr
+*.dcp
+*.bit
+*.ltx
+*.wdb
+*.pb
+*.rpt
+hs_err_pid*
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
