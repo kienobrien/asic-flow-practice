@@ -1,5 +1,4 @@
-//probably need a timescale statement in each of the .v files btw
-
+`timescale 1ns / 1ps
 
 
 
