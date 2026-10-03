@@ -23,8 +23,12 @@ yosys -V
 ```
 Run the commands in each README from that repository's root. Save your tool versions and results in a session entry. If you use another OS or toolchain, record it and compare results.
 
-## Still needed from the course
-Isaac already has course access. Link its setup instructions or summarize the required versions before adding more tools. Identify the simulator, synthesis/physical-design flow, PDK, and licensing requirements only if the actual lessons require them.
+## Course requirements checked
+Course: https://stone-arch-silicon.github.io/ASIC_101/#page_5
+
+Pages 2–8 use Vivado, Git, an 8-bit ALU, exactly one custom adder architecture, exhaustive simulation, and an FPGA target for synthesis and implementation. A physical FPGA board is not required for this project. Kien's installed Vivado 2025.2 and selected xc7a12ticsg325-1L part were used for the repaired Asic2 project; its exhaustive ALU test passed in XSim. Future verification and physical-design tracks introduce additional tools; they have not all been installed.
+
+Isaac's machine still needs its own setup verification. See the shared board and Asic2 PR for current work.
 
 ## Git workflow
 ```bash
