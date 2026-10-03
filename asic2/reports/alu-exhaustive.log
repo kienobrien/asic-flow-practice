@@ -1,0 +1,3 @@
+VCD info: dumpfile alu_tb.vcd opened for output.
+PASS: all 524288 exhaustive ALU vectors passed.
+sim/alu_tb.v:102: $finish called at 524294000 (1ps)

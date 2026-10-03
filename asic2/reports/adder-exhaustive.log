@@ -1,0 +1,2 @@
+PASS: all 131072 exhaustive adder vectors passed.
+sim/adder8_exhaustive_tb.v:25: $finish called at 131072000 (1ps)

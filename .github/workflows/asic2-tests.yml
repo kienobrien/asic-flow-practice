@@ -1,0 +1,17 @@
+name: Asic2 CLA simulation
+on:
+  push:
+    paths: ['asic2/**', '.github/workflows/asic2-tests.yml']
+  pull_request:
+    paths: ['asic2/**', '.github/workflows/asic2-tests.yml']
+permissions:
+  contents: read
+jobs:
+  simulate:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install simulator
+        run: sudo apt-get update && sudo apt-get install -y iverilog
+      - name: Run directed and exhaustive simulations
+        run: bash asic2/run-tests.sh
